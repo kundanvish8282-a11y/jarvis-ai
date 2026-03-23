@@ -1,0 +1,67 @@
+Jarvis : Invalid input.
+User : kuku kya kar raha hai?
+Jarvis : I'm still here.
+User : "phone to phone Nahin le raha phone"?
+Jarvis : Invalid input.
+User : Write clean, beginner-friendly code only. Do not explain anything. Only code.
+Minecraft
+Jarvis : import mcpi.minecraft as minecraft
+mc = minecraft.Minecraft.create()
+x = 0
+y = 10
+z = 0
+mc.setBlock(x, y, z, 17)
+User : Write clean, beginner-friendly code only. Do not explain anything. Only code.
+game
+Jarvis : import tkinter as tk
+class Game:
+    def __init__(self):
+        self.root = tk.Tk()
+        self.root.title("Game")
+    def run(self):
+        self.root.mainloop()
+if __name__ == "__main__":
+    game = Game()
+    game.run()
+User : Explain step by step in very simple language: html right html code and  me
+Jarvis : I'm not capable of explaining code in simple language.
+User : pata nahin?
+Jarvis : No.
+User : hello
+Jarvis : Hello back, KUNDAN VISHWAKARMA.
+User : open facebook
+Jarvis : You can open Facebook by typing "facebook.com" in your web browser.
+User : python -u "c:\Users\Kishan\OneDrive\desktop\JARVIS\main.py"
+Jarvis : The command you provided will execute the main.py script in Python with the -u flag, which enables unbuffered output.
+User : hello?
+Jarvis : Hello back, KUNDAN VISHWAKARMA.
+User : write <query>?
+Jarvis : Invalid input.
+User : <query>?
+Jarvis : Invalid input.
+User : hello?
+Jarvis : Hello back, KUNDAN VISHWAKARMA.
+User : hello?
+Jarvis : Hello back, KUNDAN VISHWAKARMA.
+User : love hello?
+Jarvis : Hello back, KUNDAN VISHWAKARMA.
+User : <query="Dell laptop specifications">?
+Jarvis : Invalid input.
+User : itni?
+Jarvis : Invalid input.
+User : adhure?
+Jarvis : Invalid input.
+Jarvis : A decision-making model helps in systematically evaluating options and choosing the best course of action. It considers factors like risks, benefits, and constraints.
+Jarvis : I'm here to assist you, KUNDAN VISHWAKARMA. What can I help you with?
+Jarvis : A decision-making model helps in systematically evaluating options and choosing the best course of action. It considers factors like risks, benefits, and constraints.
+Jarvis : Nothing, I'm here to assist you, KUNDAN VISHWAKARMA.
+Jarvis : You can ask me any question or provide a query about a specific topic.
+Jarvis : You want me to be more specific. I'm here to help with your queries about Dell laptop specifications. What do you want to know, KUNDAN VISHWAKARMA?
+Jarvis : You want me to rephrase. I'll provide a clear answer.
+You asked about Dell laptop specifications. Can you please be more specific, like the model number or any particular feature you're looking for?
+User : hello hello?
+Jarvis : Hello KUNDAN VISHWAKARMA. How can I assist you today?
+User : <original text>?
+Jarvis : You want the original text. I'm a voice assistant, LUCKY, and I'm here to assist you, KUNDAN VISHWAKARMA.
+User : good?
+Jarvis : You're satisfied, I assume.

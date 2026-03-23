@@ -1,0 +1,100 @@
+**Basic HTML Code Example**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            display: block;
+            margin: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Example Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome to our example page</h2>
+        <p>This is a basic HTML page with a header, navigation menu, main content, and footer.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Example Page</p>
+    </footer>
+</body>
+</html>
+```
+
+**Explanation**
+
+This code creates a basic HTML page with a header, navigation menu, main content, and footer. The `header` and `footer` elements contain basic styling to give them a background color and text color. The `nav` element contains a list of links to different pages on the site. The `main` element contains the main content of the page.
+
+**Key Elements**
+
+* `<!DOCTYPE html>`: Declares the document type as HTML5.
+* `<html>`: The root element of the HTML document.
+* `<head>`: Contains metadata about the document, including the title, character encoding, and links to external stylesheets or scripts.
+* `<body>`: Contains the content of the HTML document.
+* `<header>`: Contains the header section of the page, including the title.
+* `<nav>`: Contains the navigation menu.
+* `<main>`: Contains the main content of the page.
+* `<footer>`: Contains the footer section of the page.
+* `<style>`: Contains CSS styles to apply to the document.
+* `<h1>` and `<h2>`: Headings to organize the content of the page.
+* `<p>`: A paragraph of text.
+* `<ul>` and `<li>`: An unordered list of items.
+* `<a>`: A hyperlink to another page or resource.
+
+**Tips and Variations**
+
+* You can customize the styles and layout of the page by modifying the CSS code.
+* You can add more elements to the page, such as images, forms, or tables.
+* You can use different HTML elements to create more complex layouts and designs.
+* You can use HTML5 semantic elements, such as `<section>` and `<article>`, to improve the accessibility and structure of the page.

@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<button id="start" onclick="start()">Start</button>
+<button id="stop" onclick="stop()">Stop</button>
+<p id="out"></p>
+
+<script>
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let r;
+
+function start(){
+    r = new SR();
+    r.lang = "en";
+    r.continuous = true;
+    r.onresult = e => {
+        document.getElementById("out").innerText =
+        e.results[e.results.length-1][0].transcript;
+    }
+    r.start();
+}
+
+function stop(){
+    if(r) r.stop();
+}
+</script>
+</body>
+</html>

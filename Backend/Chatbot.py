@@ -1,19 +1,15 @@
 from groq import Groq
 from json import load, dump
 import datetime
-from dotenv import dotenv_values
-from pathlib import Path
 import os
 
-# ------------------ LOAD .env ------------------
-BASE_DIR = Path(__file__).resolve().parent.parent
-env_vars = dotenv_values(BASE_DIR / ".env")
-
-Username = env_vars.get("USERNAME", "User")
-Assistantname = env_vars.get("ASSISTANT_NAME", "Jarvis")
-GroqAPIKey = env_vars.get("GROQ_API_KEY")
+# ------------------ ENV (FIXED) ------------------
+Username = os.getenv("USERNAME", "User")
+Assistantname = os.getenv("ASSISTANT_NAME", "Jarvis")
+GroqAPIKey = os.getenv("GROQ_API_KEY")
 
 print("Groq Key Loaded:", GroqAPIKey is not None)
+
 if not GroqAPIKey:
     raise Exception("GROQ_API_KEY missing")
 
